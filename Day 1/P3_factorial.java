@@ -1,6 +1,6 @@
 import java.util.*;
 
-class factorial {
+class P3_factorial {
     public static void main() {
         int n, i, f = 1;
         Scanner sc = new Scanner(System.in);

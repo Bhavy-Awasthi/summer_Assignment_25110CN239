@@ -1,6 +1,6 @@
 import java.util.*;
 
-class table {
+class P2_table {
     public static void main() {
         int n;
         Scanner sc = new Scanner(System.in);

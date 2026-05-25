@@ -1,6 +1,6 @@
 import java.util.*;
 
-class count_digit {
+class P4_count_digit {
     public static void main() {
         int n, count = 0;
         Scanner sc = new Scanner(System.in);
