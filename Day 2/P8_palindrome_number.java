@@ -15,7 +15,8 @@ class P8_palindrome_number {
         if (n1 == r) 
         {
             System.out.println(n1 + " is a palindrome number.");
-        } else {
+        } else
+         {
             System.out.println(n1 + " is not a palindrome number.");
             sc.close();
         }
