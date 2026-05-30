@@ -14,5 +14,4 @@ class P5_sum_digits {
         System.out.println("The sum of digits is " + sum);
         sc.close();
     }
-
 }
