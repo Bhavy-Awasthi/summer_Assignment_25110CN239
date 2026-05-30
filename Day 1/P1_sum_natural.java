@@ -10,5 +10,4 @@ public class P1_sum_natural {
         System.out.println("The sum of first " + n + " natural numbers is : " + sum);
         sc.close();
     }
-
 }
