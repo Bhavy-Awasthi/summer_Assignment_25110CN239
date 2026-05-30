@@ -12,7 +12,8 @@ class P8_palindrome_number {
             r = r * 10 + d;
             n = n / 10;
         }
-        if (n1 == r) {
+        if (n1 == r) 
+        {
             System.out.println(n1 + " is a palindrome number.");
         } else {
             System.out.println(n1 + " is not a palindrome number.");
