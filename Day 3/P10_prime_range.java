@@ -11,7 +11,8 @@ class P9_prime_range {
         n1 = sc.nextInt();
         System.out.println("Enter the ending number : ");
         n2 = sc.nextInt();
-        for (i = n1; i <= n2; i++) {
+        for (i = n1; i <= n2; i++) 
+        {
             count = 0;
             for (j = 1; j <= i; j++) {
                 if (i % j == 0)
