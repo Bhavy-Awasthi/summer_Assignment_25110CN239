@@ -15,7 +15,7 @@ class P22_binary_to_decimal
             n=n/10;
             i++;
         }
-        System.out.println("Decimal equivalent is:"+decimal);
+        System.out.println("Decimal equivalent is: "+decimal);
         sc.close();
     }
 }

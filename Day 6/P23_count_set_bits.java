@@ -7,7 +7,7 @@ class P23_count_set_bits
         System.out.println("Enter a binary number:");
         int n=sc.nextInt();
         int count=0;
-        while(n>0) //while loop is used to count the number of set bits in the binary number
+        while(n>0) //while loop is used to count the number of set bits in the binary number.
         {
             int rem=n%10;
             if(rem==1)
@@ -16,7 +16,7 @@ class P23_count_set_bits
             }
             n=n/10;
         }
-        System.out.println("Number of set bits is:"+count);
+        System.out.println("Number of set bits is: "+count);
         sc.close();
     }
 }
