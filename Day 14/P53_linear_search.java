@@ -7,7 +7,7 @@ class P53_linear_search {
         int n = sc.nextInt(); // taking input of the size of the array
         int arr[] = new int[n]; // declaring an array of size n
         System.out.println("Enter the elements of the array:");
-        for (int i = 0; i < n; i++) // loop to take input of the elements of the array
+        for (int i = 0; i < n; i++) //  loop to take input of the elements of the array
         {
             arr[i] = sc.nextInt();
         }

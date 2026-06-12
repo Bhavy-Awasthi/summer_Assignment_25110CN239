@@ -13,7 +13,7 @@ class P56_duplicates_array {
         }
         boolean visit[] = new boolean[n]; // boolean array to keep track of visited elements
         System.out.println("Duplicate elements in the array:");
-        for (int i = 0; i < n; i++) // loop to find duplicate elements in the array
+        for (int i = 0; i < n; i++) //  loop to find duplicate elements in the array
         {
             if (visit[i] == true) // if the current element is already visited, skip it
             {

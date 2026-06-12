@@ -12,7 +12,7 @@ class P54_frequency_element {
             arr[i] = sc.nextInt();
         }
         System.out.println("Enter the element to find its frequency:");
-        int s = sc.nextInt(); // taking input of the element to find its frequency
+        int s = sc.nextInt(); //  taking input of the element to find its frequency
         int count = 0; // variable to count the frequency of the element in the array
         for (int i = 0; i < n; i++) // loop to count the frequency of the element in the array
         {
