@@ -5,7 +5,7 @@ class P57_reverse_array {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
         int n = sc.nextInt(); // taking input of the size of the array
-        int[] arr = new int[n]; // declaring an array of size n
+        int arr[] = new int[n]; // declaring an array of size n
         System.out.println("Enter the elements of the array:");
         for (int i = 0; i < n; i++) // loop to take input of the elements of the array
         {
