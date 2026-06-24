@@ -1,5 +1,5 @@
 import java.util.*;
-class P94_longest_word
+class P95_longest_word
 {
     public static void main()
     {
