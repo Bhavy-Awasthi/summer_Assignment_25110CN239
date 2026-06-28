@@ -14,7 +14,7 @@ public class P112_contact_management_system
         // Parallel arrays to store contact details
         String[] names = new String[maxContacts];
         String[] phoneNumbers = new String[maxContacts];
-        System.out.println("  Welcome to the Simple Contact System   ");
+        System.out.println("  Welcome to the Contact Management System   ");
         // Main Program Loop
         while (isRunning) 
         {

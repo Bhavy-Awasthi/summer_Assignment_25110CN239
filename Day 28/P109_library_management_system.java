@@ -16,7 +16,7 @@ import java.util.*;
         };
         boolean isAvailable[] = new boolean[5];
 
-        System.out.println("  Welcome to the Library System!  ");
+        System.out.println("  Welcome to the Library Management System!  ");
 
         boolean keepRunning = true;
 

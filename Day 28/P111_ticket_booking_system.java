@@ -12,7 +12,7 @@ class P111_ticket_booking_system
         // Array to hold seat status. 
         // false = available (default), true = booked
         boolean[] seats = new boolean[totalSeats];
-        System.out.println("  Welcome to the Simple Booking System   ");
+        System.out.println("  Welcome to the Ticket Booking System   ");
 
         // Main Program Loop
         while (isRunning) {

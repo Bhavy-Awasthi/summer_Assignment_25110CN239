@@ -11,7 +11,7 @@ public class P110_Bank_Account_System
         String accountNumber = "1234567890";
         double balance = 0.0;
         boolean isRunning = true;
-        System.out.println("  Welcome to the Simple Bank System  ");
+        System.out.println("  Welcome to the Bank ManagementSystem  ");
         System.out.println("Account Holder: " + accountHolder);
         System.out.println("Account Number: " + accountNumber);
 
