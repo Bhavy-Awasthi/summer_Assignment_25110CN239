@@ -1,7 +1,7 @@
 import java.util.*;
 
-public class P110_Bank_Account_System
- {
+class P110_Bank_Account_System 
+{
     public static void main() 
     {
         Scanner sc = new Scanner(System.in);
@@ -16,8 +16,7 @@ public class P110_Bank_Account_System
         System.out.println("Account Number: " + accountNumber);
 
         // Main Program Loop
-        while (isRunning)
-         {
+        while (isRunning) {
             System.out.println("Main Menu ");
             System.out.println("1. Check Balance");
             System.out.println("2. Deposit Money");
@@ -28,69 +27,52 @@ public class P110_Bank_Account_System
             int choice = sc.nextInt();
 
             // Handling User Choices without separate functions
-            if (choice == 1) 
-            {
-                
+            if (choice == 1) {
+
                 // CHECK BALANCE LOGIC
                 System.out.println("[Current Balance] " + balance);
-                
-            } 
-            else if (choice == 2) 
-            {
-                
+
+            } else if (choice == 2) {
+
                 // DEPOSIT LOGIC
                 System.out.print("Enter amount to deposit: ");
                 double depositAmount = sc.nextDouble();
-                
-                if (depositAmount > 0)
-                 {
+
+                if (depositAmount > 0) {
                     balance += depositAmount;
                     System.out.println("Success! Deposited: " + depositAmount);
                     System.out.println("New Balance: " + balance);
-                } 
-                else 
-                {
+                } else {
                     System.out.println("Error: Deposit amount must be greater than zero.");
                 }
-                
-            }
-             else if (choice == 3) 
-             {
-                
+
+            } else if (choice == 3) {
+
                 // WITHDRAW LOGIC
                 System.out.print("\nEnter amount to withdraw: ");
                 double withdrawAmount = sc.nextDouble();
-                
-                if (withdrawAmount <= 0) 
-                {
+
+                if (withdrawAmount <= 0) {
                     System.out.println("Error: Withdrawal amount must be greater than zero.");
-                } 
-                else if (withdrawAmount > balance) 
-                {
+                } else if (withdrawAmount > balance) {
                     System.out.println("Error: Insufficient funds! Your current balance is " + balance);
-                } 
-                else 
-                {
+                } else {
                     balance -= withdrawAmount;
                     System.out.println("Success! Withdrew: " + withdrawAmount);
                     System.out.println("Remaining Balance: " + balance);
                 }
-                
-            } 
-            else if (choice == 4) 
-            {
-                
+
+            } else if (choice == 4) {
+
                 // EXIT LOGIC
                 System.out.println("Thank you for using the Bank System. Goodbye!");
                 isRunning = false; // This breaks the while loop
-                
-            } 
-            else
-             {
-                
+
+            } else {
+
                 // INVALID INPUT LOGIC
                 System.out.println("Invalid choice. Please select a number between 1 and 4.");
-                
+
             }
         }
 
